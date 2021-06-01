@@ -1,7 +1,5 @@
 # TextEditor
 
-##Line of Code
-
 Lines of Code -- 890
 
 ## Description
