@@ -65,6 +65,6 @@ Above JAVA SE 7
 The development language is English. All comments and documentation should be written in English
 
 
-## Credits
+## Credits -- Team 10 Members
 * 카드리딘 | Qadridin
 * 천스위 | Chen Siyu
