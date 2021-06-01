@@ -32,7 +32,7 @@ TextEditor is a tool to edit txt file and it have more ability than usual TextEd
 
 ## Technologies
 
-## #Class: O 
+### Class: O 
 
 ### Inheritance: O 
 
