@@ -6,7 +6,7 @@ Lines of Code -- 890
 
 TextEditor is a tool to edit txt file and it have more ability than usual TextEditor 
 
-##Ability
+## Ability
 
 >open files
 >save text as file
@@ -17,7 +17,7 @@ TextEditor is a tool to edit txt file and it have more ability than usual TextEd
 >and provide multiply font, themes.
 
 
-##Class
+## Class
 
 *Jframe
 *MenuListener
@@ -30,32 +30,32 @@ TextEditor is a tool to edit txt file and it have more ability than usual TextEd
 *Pattern and etc.
 
 
-##Technologies
+## Technologies
 
-###Class: O 
+## #Class: O 
 
-###Inheritance: O 
+### Inheritance: O 
 
-###File I/O: O 
+### File I/O: O 
 
-###Collection (ArrayList): O 
+### Collection (ArrayList): O 
 
-###Swing-like GUI: O
+### Swing-like GUI: O
 
-###Object Serialization/Deserialization:  X 
+### Object Serialization/Deserialization:  X 
 
-###Utility Libraries: O 
+### Utility Libraries: O 
 
-###Other
+### Other
 
 Used Matcher and Pattern objects from regex class for searching,, also instead some function used lambda expression to reduce code.
 
 
-##Installation
+## Installation
 
 Any .java compiler that can compile and support Java Swing can run this program, just import the project file and ico file.
 
-##Environment
+## Environment
 
 Above JAVA SE 7
 
@@ -65,6 +65,6 @@ Above JAVA SE 7
 The development language is English. All comments and documentation should be written in English
 
 
-##Credits
+## Credits
 *카드리딘 | Qadridin
 *천스위 | Chen Siyu
