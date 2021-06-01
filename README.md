@@ -20,14 +20,14 @@ TextEditor is a tool to edit txt file and it have more ability than usual TextEd
 ## Class
 
 * Jframe
-*MenuListener
-*MenuItem
-*WindowEvent
-*File
-*FileWriter
-*IOException
-*Matcher
-*Pattern and etc.
+* MenuListener
+* MenuItem
+* WindowEvent
+* File
+* FileWriter
+* IOException
+* Matcher
+* Pattern and etc.
 
 
 ## Technologies
@@ -66,5 +66,5 @@ The development language is English. All comments and documentation should be wr
 
 
 ## Credits
-*카드리딘 | Qadridin
-*천스위 | Chen Siyu
+* 카드리딘 | Qadridin
+* 천스위 | Chen Siyu
