@@ -19,7 +19,7 @@ TextEditor is a tool to edit txt file and it have more ability than usual TextEd
 
 ## Class
 
-*Jframe
+* Jframe
 *MenuListener
 *MenuItem
 *WindowEvent
