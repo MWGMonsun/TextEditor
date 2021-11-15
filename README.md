@@ -1,11 +1,9 @@
--- Covid.19 DATABASE --
-# TextEditor
+# COVID.19 DATABASE
 
-Lines of Code -- 890
 
 ## Description
 
-TextEditor is a tool to edit txt file and it have more ability than usual TextEditor 
+This COVID19 DATABASE Based On [K_COVID19.csv] And [addtional_Timeinfo.csv]
 
 ## Ability
 
@@ -58,7 +56,7 @@ Any .java compiler that can compile and support Java Swing can run this program,
 
 ## Environment
 
-Above JAVA SE 7
+Above MySQL 5.7.26
 
 
 ## Language
@@ -66,6 +64,6 @@ Above JAVA SE 7
 The development language is English. All comments and documentation should be written in English
 
 
-## Credits -- Team 10 Members
-* 카드리딘 | Qadridin
-* 천스위 | Chen Siyu
+## Credits -- Team 20 Members
+* 윤영우
+* 천스위
