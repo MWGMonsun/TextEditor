@@ -34,11 +34,11 @@ This COVID19 DATABASE Based On 『K_COVID19.csv』 And 『addtional_Timeinfo.csv
 
 ### Data Insert
 
->You Must Set host url before insert data,the default host is 127.0.0.1
->And there must be a Database CREATE BY COVID19.sql
->Both of『K_COVID19.csv』 And 『addtional_Timeinfo.csv』Must be in same floder with 8 python files.
->Then Run Python File To Insert data into this Database 
->Python version must above 3 ,check your python version,if it is python2,may be error
+* You Must Set host url before insert data,the default host is 127.0.0.1
+* And there must be a Database CREATE BY COVID19.sql
+* Both of『K_COVID19.csv』 And 『addtional_Timeinfo.csv』Must be in same floder with 8 python files.
+* Then Run Python File To Insert data into this Database 
+* Python version must above 3 ,check your python version,if it is python2,may be error
 
 ### Every Table Key
 
