@@ -7,52 +7,44 @@ This COVID19 DATABASE Based On [K_COVID19.csv] And [addtional_Timeinfo.csv]
 
 ## Ability
 
->open files
->save text as file
-> with keyboard shortcuts
->search words in text
->search word with regex expression
->count every lines and characters
->and provide multiply font, themes.
+>8 tables through data extraction and classification of individual cases
 
 
-## Class
+## Table
 
-* Jframe
-* MenuListener
-* MenuItem
-* WindowEvent
-* File
-* FileWriter
-* IOException
-* Matcher
-* Pattern and etc.
+* THE_CASE
+* PATIENTINFO
+* REGION
+* WEATHER
+* TIMEINFO
+* TIMEAGE
+* TIMEGENDER
+* TIMEPROVINCE
 
 
-## Technologies
+## Table Variable Key
 
-### Class: O 
+### THE_CASE: 
 
-### Inheritance: O 
+### PATIENTINFO: O 
 
-### File I/O: O 
+### REGION: O 
 
-### Collection (ArrayList): O 
+### WEATHER: O 
 
-### Swing-like GUI: O
+### TIMEINFO: O
 
-### Object Serialization/Deserialization:  X 
+### TIMEAGE:  X 
 
-### Utility Libraries: O 
+### TIMEGENDER: O 
 
-### Other
+### TIMEPROVINCE
 
-Used Matcher and Pattern objects from regex class for searching,, also instead some function used lambda expression to reduce code.
 
 
 ## Installation
 
-Any .java compiler that can compile and support Java Swing can run this program, just import the project file and ico file.
+Please Use COVID19.sql To Create DATABASE And Tables
 
 ## Environment
 
@@ -61,7 +53,7 @@ Above MySQL 5.7.26
 
 ## Language
 
-The development language is English. All comments and documentation should be written in English
+English
 
 
 ## Credits -- Team 20 Members
