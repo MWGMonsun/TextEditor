@@ -48,7 +48,7 @@ English
 
 
 ## More
-I upload all php file on personal website,so it is possible to ask these php files online,But the mysql connect is based on cobi.knu.ac.kr
+I upload all php file on personal website,so it is possible to ask these php files online,But the mysql connect is based on cobi.knu.ac.kr  
 【내용1】  
 http://mwgmonsun.com/patientinfo.php  
 http://mwgmonsun.com/region.php  
