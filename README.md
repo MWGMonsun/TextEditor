@@ -1,16 +1,13 @@
-# COVID.19 DATABASE
+# COVID.19 DATABASE PHP
 
 
 ## Description
 
 This COVID19 DATABASE Based On 『K_COVID19.csv』 And 『addtional_Timeinfo.csv』
-
-## Ability
-
->8 tables through data extraction and classification of individual cases and insert data with python
+Before start these php file,you must have a 『dbconfig.php』 in same folder.
 
 
-## Table
+## Table Name
 
 * THE_CASE
 * PATIENTINFO
@@ -21,61 +18,48 @@ This COVID19 DATABASE Based On 『K_COVID19.csv』 And 『addtional_Timeinfo.csv
 * TIMEGENDER
 * TIMEPROVINCE
 
-## Python File
+## PHP File
 
-* add_case.py
-* add_patientinfo.py
-* add_region.py
-* add_weather.py
-* add_timeinfo.py
-* add_timeage.py
-* add_timegender.py
-* add_timeprovince.py
+* 【내용1】case.php
+* 【내용1】patientinfo.php
+* 【내용1】region.php
+* 【내용1】timeinfo.php
+* 【내용1】weather.php
+* 【내용2】case_select_province.php
+* 【내용2】patientinfo_select_country.php
+* 【내용2】weather_select_wdate.php
+* 【내용3】date_province_sex.php
 
-### Data Insert
+## 내용3 date_province_sex.php
 
-* You Must Set host url before insert data,the default host is 127.0.0.1
-* And there must be a Database CREATE BY COVID19.sql
-* Both of『K_COVID19.csv』 And 『addtional_Timeinfo.csv』Must be in same floder with 8 python files.
-* Then Run Python File To Insert data into this Database 
-* Python version must above 3 ,check your python version,if it is python2,may be error
+SQL in PHP —— select confirmed_date,province,COUNT(IF(sex='male',true,null)) as male_confirmed_num,COUNT(IF(sex='female',true,null)) as female_confirmed_num from patientinfo where confirmed_date='{$date_value}' GROUP BY province with ROLLUP;
 
-### Every Table Key
-
-* Table Variable Key
-
-* THE_CASE: case_id
-
-* PATIENTINFO: patient_id
-
-* REGION: region_code
-
-* WEATHER: region_code,wdate 
-
-* TIMEINFO: 
-
-* TIMEAGE:   
-
-* TIMEGENDER:  
-
-* TIMEPROVINCE :
-
-
-
-## Installation
-
-Please Use COVID19.sql To Create DATABASE And Tables
-
-## Environment
-
-Above MySQL 5.7.26
-Above Python 3
+Function —— Select date firstly,and then click 【load】,website will list The number of males and females infected in each province on the same date 
 
 ## Language
 
+Korean
 English
 
 
 ## Credits -- Team 20 Members
-* 윤영우
 * 천스위
+* 윤영우
+
+
+## More
+I upload all php file on personal website,so it is possible to ask these php files online,But the mysql connect is based on cobi.knu.ac.kr
+【내용1】
+http://mwgmonsun.com/patientinfo.php
+http://mwgmonsun.com/region.php
+http://mwgmonsun.com/weather.php
+http://mwgmonsun.com/timeinfo.php
+http://mwgmonsun.com/case.php
+
+【내용2】
+http://mwgmonsun.com/patientinfo_select_country.php
+http://mwgmonsun.com/case_select_province.php
+http://mwgmonsun.com/weather_select_wdate.php
+
+【내용3】
+http://mwgmonsun.com/date_province_sex.php
